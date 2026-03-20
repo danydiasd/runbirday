@@ -76,7 +76,7 @@ export function RacePage() {
   const handleRegistration = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const generatedPassword = `${registrationData.birthDate.replaceAll('-', '')}${nextId}`;
+    const generatedPassword = `${registrationData.birthDate.replace(/-/g, '')}${nextId}`;
     setRegisteredRunner({
       ...registrationData,
       id: nextId,
