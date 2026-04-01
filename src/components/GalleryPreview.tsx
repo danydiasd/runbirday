@@ -3,17 +3,17 @@ import { AdaptiveImage } from './AdaptiveImage';
 const galleryItems = [
   {
     title: 'Culto de Gratidão',
-    description: 'Imagem conceitual com tons dourados, luz suave e atmosfera espiritual.',
-    image: '/images/culto.jpg',
+    description: 'Atmosfera espiritual e louvores para promover a gratidão a Deus por suas bênçãos.',
+    image: '/images/culto.png',
   },
   {
     title: 'Corrida 35',
-    description: 'Área preparada para foto real da aniversariante correndo ou placeholder de fácil troca.',
+    description: 'Um evento para promover a saúde física e emocional, com uma corrida de  2 e 5 km para os participantes se desafiarem e se conectarem com a natureza.',
     image: '/images/corrida.jpg',
   },
   {
     title: 'Festa',
-    description: 'Seção híbrida, pronta para combinar estética e registros reais em um futuro carrossel.',
+    description: 'Mais um aniversário maravilhoso para relembrar ainda por muito tempo.',
     image: '/images/festa.jpg',
   },
 ];

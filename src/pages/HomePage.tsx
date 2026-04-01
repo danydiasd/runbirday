@@ -39,8 +39,8 @@ export function HomePage() {
           <FadeInSection>
             <SectionHeading
               eyebrow="Galeria do projeto"
-              title="Imagens organizadas para fácil substituição em /public/images."
-              description="As três artes usam os arquivos culto.jpg, corrida.jpg e festa.jpg. Assim que você enviar as fotos finais, basta substituir os arquivos mantendo os mesmos nomes."
+              title="O que já tivemos nesta história que vale a pena recordar."
+              description="Três experiências que já aconteceram e que contam um pouco do que foi vivido até aqui, com a promessa de muitas fotos lindas para relembrar cada momento desses eventos incríveis."
               align="center"
             />
           </FadeInSection>

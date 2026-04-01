@@ -5,8 +5,8 @@ export function Hero() {
     <section id="top" className="relative overflow-hidden text-white">
       <div className="absolute inset-0">
         <AdaptiveImage
-          src="/images/culto.jpg"
-          alt="Pôr do sol simbólico para o culto de gratidão"
+          src="/images/culto.png"
+          alt="Atmosfera espiritual e muitos louvores em um culto de gratidão, que vai te enriquecer a alma e te inspirar a agradecer a Deus por todas as bênçãos recebidas ao longo desses 35 anos."
           fallbackLabel="Pôr do sol de gratidão"
           fallbackVariant="sunset"
           className="h-full min-h-[88vh]"
@@ -38,8 +38,8 @@ export function Hero() {
           <div className="grid gap-4 pt-6 sm:grid-cols-3">
             {[
               ['3 experiências', 'Culto, corrida e festa em uma narrativa única.'],
-              ['Design emocional', 'Tons quentes, dourado suave e atmosfera elegante.'],
-              ['Pronto para evoluir', 'Base estruturada para integrar backend e MariaDB depois.'],
+              ['Design emocional', 'Os Tons quentes, dourados e suaves que a alma resiliente alcancou até aqui.'],
+              ['Pronto para evoluir', 'Sonhos e projetos que irão ser marcados por mais meia década de vida.'],
             ].map(([title, description]) => (
               <div key={title} className="rounded-[1.75rem] border border-white/10 bg-white/10 p-5 backdrop-blur-sm">
                 <h2 className="font-semibold text-brand-50">{title}</h2>

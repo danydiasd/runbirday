@@ -9,13 +9,14 @@ const eventCopy = {
     eyebrow: 'Confirmação de presença · Culto',
     title: 'Reserve seu lugar neste momento de gratidão.',
     description:
-      'Preencha seus dados para confirmar sua presença no culto. A estrutura já está pronta para envio futuro para backend e registro em banco.',
+      'Preencha seus dados para confirmar sua presença no culto.', 
+      //A estrutura já está pronta para envio futuro para backend e registro em banco
   },
   festa: {
     eyebrow: 'Confirmação de presença · Festa',
     title: 'Confirme sua participação nesta celebração especial.',
     description:
-      'Deixe seus dados para a equipe organizadora receber sua confirmação de forma elegante e prática.',
+      'Deixe seus dados para a equipe organizadora  possa receber sua confirmação de forma elegante e prática.',
   },
 } as const;
 
