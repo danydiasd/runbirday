@@ -4,7 +4,7 @@ export const events: EventInfo[] = [
   {
     id: 'culto',
     eyebrow: 'Culto de gratidão',
-    title: 'Uma noite para lembrar da fidelidade de Deus em cada ciclo.',
+    title: 'Um fim de tarde  para lembrar da fidelidade de Deus em cada ciclo.',
     description:
       'Um encontro acolhedor para agradecer pelas promessas cumpridas, pela proteção no caminho e pela beleza de chegar aos 35 anos com fé renovada.',
     date: '14 de Novembro de 2026',
