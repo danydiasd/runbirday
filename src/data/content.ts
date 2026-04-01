@@ -10,7 +10,7 @@ export const events: EventInfo[] = [
     date: '14 de Novembro de 2026',
     time: '16h00',
     location: 'A definir',
-    image: '/images/culto.jpg',
+    image: '/images/por-do-sol.jpg',
     actionLabel: 'Confirmar presença',
     actionHref: '/confirmar/culto',
     highlights: ['Momento de adoração', 'Recepção afetiva', 'Atmosfera de pôr do sol'],
