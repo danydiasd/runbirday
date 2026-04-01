@@ -36,7 +36,7 @@ export function AdaptiveImage({
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-white/80">Imagem pendente</p>
           <p className="mt-2 font-display text-2xl font-semibold">{fallbackLabel ?? alt}</p>
           <p className="mt-2 max-w-md text-sm leading-6 text-white/85">
-            Adicione ou substitua o arquivo correspondente em <code>/public/images</code> para exibir a foto final.
+            A certeza de um momento real com Deus e de muita gratidão<code>/public/images</code> .
           </p>
         </div>
       </div>
