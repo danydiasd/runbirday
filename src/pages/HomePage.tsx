@@ -21,7 +21,7 @@ export function HomePage() {
             <SectionHeading
               eyebrow="Programação especial"
               title="Três experiências para contar uma vida inteira com beleza e significado."
-              description="Cada seção foi pensada para emocionar: a fé que sustenta, o movimento que transforma e a celebração que reúne as pessoas certas ao redor dessa história."
+              description="Cada seção foi pensada para você se emocionar: a fé que sustenta, o movimento que transforma e a celebração que reúne as pessoas certas ao redor dessa história."
             />
           </FadeInSection>
           <FadeInSection>
@@ -40,7 +40,7 @@ export function HomePage() {
             <SectionHeading
               eyebrow="Galeria do projeto"
               title="O que já tivemos nesta história que vale a pena recordar."
-              description="Três experiências que já aconteceram e que contam um pouco do que foi vivido até aqui, com a promessa de muitas fotos lindas para relembrar cada momento desses eventos incríveis."
+              description="Três experiências que focarão em áreas diferentes do viver e que contam um pouco do que foi vivido até aqui, com a promessa de muitas fotos lindas para relembrar cada momento desses eventos incríveis."
               align="center"
             />
           </FadeInSection>
