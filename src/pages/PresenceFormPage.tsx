@@ -22,7 +22,7 @@ const eventCopy = {
   },
 } as const;
 
-type EventType = keyof typeof eventCopy;
+
 
 export function PresenceFormPage() {
   const { eventType = 'culto' } = useParams();
