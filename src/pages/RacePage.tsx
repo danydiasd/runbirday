@@ -1,4 +1,5 @@
 import { FormLayout } from '../layouts/FormLayout';
+import raceLogo from '/images/logo_corrida.jpg';
 
 export function RacePage() {
   return (
@@ -6,8 +7,10 @@ export function RacePage() {
       eyebrow="Corrida 35 - Em Movimento"
       title="Realize sua inscrição para a corrida B-DAY Run Dany"
       description={
-        <>
-          <div>
+        <div className="space-y-5">
+          
+
+          <div className="space-y-3">
             <p>🏃 Uma celebração da vida através do esporte;</p>
 
             <p>💜 Um encontro entre amigos, corredores e familiares;</p>
@@ -38,7 +41,7 @@ export function RacePage() {
           </p>
 
           <p>
-            O percurso contará com opções de 3km e 5 km, proporcionando uma
+            O percurso contará com opções de 3 km e 5 km, proporcionando uma
             experiência inclusiva para corredores de todos os níveis.
           </p>
 
@@ -46,47 +49,47 @@ export function RacePage() {
             Todos os participantes receberão um kit especial, incluindo
             camiseta, medalha e brindes exclusivos.
           </p>
-        </>
+        </div>
       }
     >
+     
       <div className="flex h-full flex-col justify-center">
-  <h2 className="font-display text-2xl font-bold text-brand-900">
-    Garanta sua inscrição
-  </h2>
+         <div className="mb-6 flex justify-center">
+            <img
+              src={raceLogo}
+              alt="Logo B-DAY Run Dany – 35 Anos em Movimento"
+              className="h-auto w-full max-w-xs object-contain"
+            />
+      </div>
+        <div className="mt-6 space-y-5 rounded-2xl bg-brand-50 p-6">
+          <p className="leading-7 text-brand-700">
+            📅 <strong>Data:</strong> 15 de novembro de 2026
+            <br />
+            🕕 <strong>Horário:</strong> 6h00
+            <br />
+            📍 <strong>Local:</strong> Parque Urbano da Lagoa do Mondubim,
+            Fortaleza.
+          </p>
 
-  <p className="mt-3 leading-7 text-brand-700">
-    A inscrição da B-DAY Run Dany será realizada pela plataforma Fortal Pass.
-  </p>
+          <p className="leading-7 text-brand-700">
+            🏃 <strong>Percursos:</strong> 3 km e 5 km.
+          </p>
 
-    <div className="mt-6 space-y-5 rounded-2xl bg-brand-50 p-6">
-      <p className="leading-7 text-brand-700">
-        📅 <strong>Data:</strong> 15 de novembro de 2026
-        <br />
-        🕕 <strong>Horário:</strong> 6h00
-        <br />
-        📍 <strong>Local:</strong> Parque Urbano da Lagoa do Mondubim,
-        Fortaleza.
-      </p>
+          <p className="leading-7 text-brand-700">
+            🎁 <strong>Kit do atleta:</strong> camiseta, medalha e brindes
+            exclusivos.
+          </p>
+        </div>
 
-      <p className="leading-7 text-brand-700">
-        🏃 <strong>Percursos:</strong> 2,5 km e 5 km.
-      </p>
-
-      <p className="leading-7 text-brand-700">
-        🎁 <strong>Kit do atleta:</strong> camiseta, medalha e brindes
-        exclusivos.
-      </p>
-    </div>
-
-    <a
-      href="https://fortal-pass.com/corridas/bday-run-2026-3"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-8 inline-flex w-fit items-center justify-center rounded-xl bg-brand-600 px-6 py-3 font-semibold text-white transition hover:bg-brand-700"
-    >
-      Fazer inscrição na Fortal Pass
-    </a>
-  </div>
+        <a
+          href="https://fortal-pass.com/corridas/bday-run-2026-3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-flex w-fit items-center justify-center rounded-xl bg-brand-600 px-6 py-3 font-semibold text-white transition hover:bg-brand-700"
+        >
+          Fazer inscrição na Fortal Pass
+        </a>
+      </div>
     </FormLayout>
   );
 }
