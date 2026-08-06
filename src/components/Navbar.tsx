@@ -2,6 +2,7 @@ const links = [
   { href: '#culto', label: 'Culto' },
   { href: '#corrida', label: 'Corrida' },
   { href: '#festa', label: 'Festa' },
+  { href: '#galeria', label: 'Galeria' },
   { href: '#timeline', label: 'Linha do tempo' },
 ];
 
