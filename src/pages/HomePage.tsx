@@ -35,12 +35,12 @@ export function HomePage() {
           </FadeInSection>
         </section>
 
-        <section className="section-shell space-y-8">
+        <section id="galeria" className="section-shell space-y-8 scroll-mt-24">
           <FadeInSection>
             <SectionHeading
               eyebrow="Galeria do projeto"
               title="O que já tivemos nesta história que vale a pena recordar."
-              description="Três experiências que focarão em áreas diferentes do viver e que contam um pouco do que foi vivido até aqui, com a promessa de muitas fotos lindas para relembrar cada momento desses eventos incríveis."
+              description="Um passeio por registros reais de encontros, sorrisos e capítulos que fizeram esta história chegar até aqui. Navegue e reviva cada memória."
               align="center"
             />
           </FadeInSection>
