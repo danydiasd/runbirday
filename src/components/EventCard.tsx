@@ -57,7 +57,7 @@ export function EventCard({ event, highlight = false }: EventCardProps) {
         </dl>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm leading-6 text-brand-600">
-            Em desenvolvimento
+            
             {/* Estrutura preparada para integração posterior com banco MariaDB e automações de confirmação. */}
           </p>
           <Link to={event.actionHref} className={highlight ? 'cta-button' : 'secondary-button'}>

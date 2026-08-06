@@ -38,7 +38,7 @@ export function RacePage() {
           </p>
 
           <p>
-            O percurso contará com opções de 2,5 km e 5 km, proporcionando uma
+            O percurso contará com opções de 3km e 5 km, proporcionando uma
             experiência inclusiva para corredores de todos os níveis.
           </p>
 
@@ -79,7 +79,7 @@ export function RacePage() {
     </div>
 
     <a
-      href="https://fortal-pass.com/corridas/bday-run-2026"
+      href="https://fortal-pass.com/corridas/bday-run-2026-3"
       target="_blank"
       rel="noopener noreferrer"
       className="mt-8 inline-flex w-fit items-center justify-center rounded-xl bg-brand-600 px-6 py-3 font-semibold text-white transition hover:bg-brand-700"
